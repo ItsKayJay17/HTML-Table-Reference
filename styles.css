@@ -1,0 +1,92 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    padding: 40vh 0;
+}
+
+nav {
+    text-align: center; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* Center the section content */
+#table-tags,
+#table-attributes {
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  justify-content: center; /* Centers vertically */
+  align-items: center; /* Centers horizontally */
+  height: 100vh; /* Makes the section take up the full viewport height */
+  width: 100%;
+}
+
+/* Center the h2 text */
+#table-tags h2,
+#table-attributes h2 {
+  text-align: center; /* Centers the h2 text */
+  margin-bottom: 20px; /* Adds space below the h2 */
+}
+
+/* Center the table */
+table {
+  border-collapse: collapse; /* Removes space between table cells */
+  width: 80%; /* Adjust the width of the table */
+  max-width: 800px; /* Optional: Set a max width for the table */
+  margin: 0 auto; /* Centers the table horizontally (backup) */
+  text-align: left; /* Aligns text to the left within table cells */
+}
+
+/* Center the "Back" button */
+#table-tags h3,
+#table-attributes h3 {
+  text-align: center; /* Centers the "Back" button text */
+  margin-top: 20px; /* Adds space above the "Back" button */
+}
+
+/* Style the table cells */
+th, td {
+  border: 1px solid #ddd; /* Adds borders to table cells */
+  padding: 8px; /* Adds padding inside table cells */
+}
+
+th {
+  background-color: #333; /* Dark background for table headers */
+  color: white; /* White text for table headers */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Adds a light background to even rows */
+}
